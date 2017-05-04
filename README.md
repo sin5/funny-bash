@@ -102,3 +102,10 @@ while ! wait;do
     pgrep -P $$
 done
 ```
+
+### echo single quote between single quotes
+``` bash
+# 'i' + \' + 'm single quote'
+echo 'i'\''m single quote'
+```
+
